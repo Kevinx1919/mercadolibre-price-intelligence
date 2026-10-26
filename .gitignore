@@ -9,3 +9,6 @@ data/raw/*
 
 # Local Codex or application configuration may contain credentials.
 config.toml
+
+# Personal OAuth experimentation; not part of the data pipeline.
+codigo.py
