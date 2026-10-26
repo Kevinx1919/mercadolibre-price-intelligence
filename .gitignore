@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Raw API responses are execution data, never source code.
+data/raw/*
+!data/raw/.gitkeep
+
+# Local Codex or application configuration may contain credentials.
+config.toml
